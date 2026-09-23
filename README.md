@@ -38,9 +38,9 @@ project.
 > Stage 1 prototype. The servo and LCD are not used or wired for any
 > functionality at this stage.
 
-![IR sensor obstacle detection test](images/ir_sensor_obstacle_detection.jpg)
+![IR sensor obstacle detection test](images/result1.jpeg)
 
-![Keypad manual input setup](images/keypad_manual_input_setup.jpg)
+![Keypad manual input setup](images/result2.jpeg)
 
 ## Pin Connections
 
