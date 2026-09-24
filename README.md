@@ -62,6 +62,35 @@ include:
 - Adding **Bluetooth connectivity** with a companion **Android app** for
   remote control
 
+## Circuit Schematic
+
+![Circuit schematic showing servo, ultrasonic sensors, and soil moisture sensor wiring](images/circuit_schematic.jpg)
+
+| Component | Pin | Arduino Connection |
+|---|---|---|
+| Servo motor | Signal | Pin 9 |
+| Servo motor | VCC | 5V |
+| Servo motor | GND | GND |
+| HC-SR04 Ultrasonic (Bin 1 / Wet) | Trig | A0 |
+| HC-SR04 Ultrasonic (Bin 1 / Wet) | Echo | A1 |
+| HC-SR04 Ultrasonic (Bin 1 / Wet) | VCC | 5V |
+| HC-SR04 Ultrasonic (Bin 1 / Wet) | GND | GND |
+| HC-SR04 Ultrasonic (Bin 2 / Dry) | Trig | Pin 5 |
+| HC-SR04 Ultrasonic (Bin 2 / Dry) | Echo | Pin 6 |
+| Soil Moisture Sensor | AO (analog out) | A2 |
+| Soil Moisture Sensor | VCC | 5V |
+| Soil Moisture Sensor | GND | GND |
+| IR Sensor (tray) | OUT | Pin 2 |
+| IR Sensor (litter) | OUT | Pin 3 |
+| Buzzer | + | Pin 4 |
+| LCD (I2C) | SDA / SCL | A4 / A5 |
+| HC-05 Bluetooth | TXD / RXD | Pin 12 / Pin 13 |
+
+This schematic illustrates the core sensor wiring (servo, ultrasonic,
+moisture sensor). See the pin table above for the complete connection
+list including components not pictured (IR sensors, buzzer, LCD,
+Bluetooth).
+
 ## Author
 
 **Harsha Vardhan** — ECE student, VCET
